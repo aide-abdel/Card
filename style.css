@@ -1,0 +1,39 @@
+.grid{
+    height: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4fr 3fr 0.3fr;
+    grid-template-areas: "header side" "main main" "footer footer";
+   }
+   header{
+    grid-area: header;
+    background-color: lightblue;
+   }
+   main{
+    grid-area: main;
+    background-color: yellow;
+   }
+   side{
+    grid-area: side;
+    background-color:lightpink
+   }
+   footer{
+    grid-area: footer;
+    background-color:lightgreen;
+   }
+   img{
+    width: 300px;
+   }
+   .main{
+    display: flex;
+    justify-content: space-around;
+   }
+   .par1{
+    border: solid;
+    margin: 20px;
+    padding: 20px;
+    border-style: dashed;
+   }
+   .title-main{
+    background-color: aqua;
+   }
